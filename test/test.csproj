@@ -244,7 +244,6 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Task\Index.cshtml" />
     <Content Include="Views\Task\Add.cshtml" />
-    <Content Include="Views\Task\Success.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />

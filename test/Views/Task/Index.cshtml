@@ -4,19 +4,33 @@
 
 <h2>Список дел</h2>
 
+@if (ViewBag.Added == true)
+{
+    <div class="alert alert-success" role="alert">
+        Задание добавлено!
+    </div>
+}
+
+@if (ViewBag.Deleted == true)
+{
+    <div class="alert alert-danger" role="alert">
+        Задание удалено!
+    </div>
+}
+
 
 
 <div class="container p-0 mt-3">
     <ul class="list-group">
         @foreach (var todo in ViewBag.Tasks)
-            {
-            <li class="list-group-item">
+        {
+            <a href="@Url.Action("DeleteTodo", "Task", new { @todo.Id })" class="list-group-item list-group-item-action" data-toggle="tooltip" data-placement="top" title="Кликнуть для удаления">
                 <div class="d-flex justify-content-between">
                     <h5 class="mb-1">@todo.TaskName</h5>
                     <small>@todo.DateCreated</small>
                 </div>
                 <p class="mb-1">@todo.Description</p>
-            </li>
+            </a>
         }
 
     </ul>

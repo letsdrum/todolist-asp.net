@@ -40,7 +40,22 @@ namespace test.Controllers
 
             Context.SaveChanges();
 
-            return View("Success");
+            ViewBag.Tasks = Context.Table;
+            ViewBag.Added = true;
+            return View("Index");
+        }
+
+
+        public ActionResult DeleteTodo(int id)
+        {
+            var todo = Context.Table.Find(id);
+
+            Context.Table.Remove(todo);
+            Context.SaveChanges();
+
+            ViewBag.Tasks = Context.Table;
+            ViewBag.Deleted = true;
+            return View("Index");
         }
 
         
