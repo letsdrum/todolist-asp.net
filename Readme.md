@@ -4,7 +4,8 @@
 
 ## UI
 
-![UI](https://github.com/letsdrum/todolist-asp.net/tree/master/test/Content/assets/1.png?raw=true =800x)
-![UI](https://github.com/letsdrum/todolist-asp.net/tree/master/test/Content/assets/2.png?raw=true =800x))
-![UI](https://github.com/letsdrum/todolist-asp.net/tree/master/test/Content/assets/3.png =800x))
+<img src="https://github.com/letsdrum/todolist-asp.net/tree/master/test/Content/assets/1.png" alt="drawing" width="800"/>
+![UI](https://github.com/letsdrum/todolist-asp.net/tree/master/test/Content/assets/1.png?raw=true)
+![UI](https://github.com/letsdrum/todolist-asp.net/tree/master/test/Content/assets/2.png?raw=false))
+![UI](https://github.com/letsdrum/todolist-asp.net/tree/master/test/Content/assets/3.png))
 ![UI](https://github.com/letsdrum/todolist-asp.net/tree/master/test/Content/assets/4.png?raw=true "UI")
