@@ -1,0 +1,17 @@
+﻿@{
+    ViewBag.Title = "View";
+}
+
+<h2>Список дел</h2>
+
+<a href="/Task/Add" class="btn btn-default">Добавить задание</a>
+
+    <div class="container">
+
+        @foreach (var todo in ViewBag.Tasks)
+        {
+            <h4>@todo.TaskName</h4>
+            <p>@todo.Description</p>
+            <time>@todo.DateCreated</time>
+        }
+    </div>

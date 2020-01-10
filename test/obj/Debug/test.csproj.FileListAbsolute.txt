@@ -22,3 +22,5 @@ C:\Desktop\local repository\C#\test\test\bin\Antlr3.Runtime.pdb
 C:\Desktop\local repository\C#\test\test\obj\Debug\test.csprojResolveAssemblyReference.cache
 C:\Desktop\local repository\C#\test\test\obj\Debug\test.dll
 C:\Desktop\local repository\C#\test\test\obj\Debug\test.pdb
+C:\Desktop\local repository\C#\test\test\bin\Newtonsoft.Json.dll
+C:\Desktop\local repository\C#\test\test\bin\Newtonsoft.Json.xml

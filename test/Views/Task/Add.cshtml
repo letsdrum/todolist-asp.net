@@ -1,0 +1,20 @@
+﻿
+@{
+    ViewBag.Title = "Add";
+}
+
+<h2>Добавление задания</h2>
+
+<form method="post" class="form-group" action="AddTodo">
+    <div class="input-group">
+        <input type="text" class="form-control" placeholder="Что нужно сделать?" name="TaskName">
+    </div>
+
+    <div class="input-group">
+        <input type="text" class="form-control" placeholder="Описание" name="Description">
+    </div>
+
+    <button type="submit" class="btn btn-default">Добавить</button>
+</form>
+
+
