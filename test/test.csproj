@@ -193,6 +193,10 @@
     <Content Include="App_Data\DB_log.ldf">
       <DependentUpon>DB.mdf</DependentUpon>
     </Content>
+    <Content Include="Content\assets\1.png" />
+    <Content Include="Content\assets\2.png" />
+    <Content Include="Content\assets\3.png" />
+    <Content Include="Content\assets\4.png" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
