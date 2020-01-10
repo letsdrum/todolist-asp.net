@@ -4,14 +4,22 @@
 
 <h2>Список дел</h2>
 
-<a href="/Task/Add" class="btn btn-default">Добавить задание</a>
 
-    <div class="container">
 
+<div class="container p-0 mt-3">
+    <ul class="list-group">
         @foreach (var todo in ViewBag.Tasks)
-        {
-            <h4>@todo.TaskName</h4>
-            <p>@todo.Description</p>
-            <time>@todo.DateCreated</time>
+            {
+            <li class="list-group-item">
+                <div class="d-flex justify-content-between">
+                    <h5 class="mb-1">@todo.TaskName</h5>
+                    <small>@todo.DateCreated</small>
+                </div>
+                <p class="mb-1">@todo.Description</p>
+            </li>
         }
-    </div>
+
+    </ul>
+
+    <a href="/Task/Add" class="btn btn-primary mt-3">Добавить задание</a>
+</div>
